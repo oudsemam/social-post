@@ -1,0 +1,5 @@
+<form #NewThoughtForm = 'ngForm' (ngSubmit)='submitPost(NewThoughtForm)'>
+    <input type="text" name='Title' ngModel>
+    <textarea name='thought' ngModel></textarea>
+    <button>Add new thought</button>
+</form>
